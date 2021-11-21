@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: seashell;
+}
+a{
+    display: none;
+    text-decoration: none;
+    margin:5px;
+}
+.wrapper1:hover a{
+    display: initial;
+    display:block;
+}
+li{
+    display: none;
+}
+.wrapper2:hover li{
+    display: initial;
+    display:block;
+}
+.wrapper1, .wrapper2{
+    display:inline-block;
+}
+.main{
+   margin:  200px 0px 0px 450px;
+}
+button{
+    background-color:lightsalmon;
+    color:red;
+    padding:2px;
+}
+li:hover{
+    background-color: grey;
+}
